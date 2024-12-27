@@ -1,0 +1,104 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Giriş Alanları ve Buton */
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Kullanıcı Bilgileri */
+#userInfo {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#userInfo h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#userInfo p {
+    font-size: 14px;
+    color: #555;
+}
+
+#userInfo img {
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/* Repo Bilgisi */
+#repoInfo {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#repoInfo h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#repoInfo p {
+    font-size: 14px;
+    color: #555;
+}
+
+#repoInfo a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#repoInfo a:hover {
+    text-decoration: underline;
+}
+
+/* Hata Mesajı */
+#userInfo p, #repoInfo p {
+    font-weight: bold;
+    color: red;
+}
